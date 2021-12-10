@@ -1,0 +1,579 @@
+
+
+  /* #inp {
+    font-weight: 520 ;	
+     font-family:  Comic Sans, cursive ;
+  } */
+
+
+    #c1 {
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+      }
+      #c1:before {
+        width: 28px;
+        height: 5px;
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        margin-left: -14px;
+        background-color: #b80000;
+      }
+      #c1:after {
+        width: 100px;
+        height: 1px;
+        display: block;
+        content: "";
+        position: relative;
+        margin-top: 25px;
+        left: 50%;
+        margin-left: -50px;
+        background-color: #b80000;
+      }
+      
+
+
+
+#id{
+    margin-left:49px
+}
+
+#add {
+    margin-left:13px
+}
+
+#user{
+    margin-left:5px
+}
+
+#bal{
+    margin-left:22px
+}
+
+body{
+    background:url("/wp4316563-bank-wallpapers.jpg") ;
+    background-size :cover ;
+    
+}
+
+
+#name{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+#last{
+    font-family: inherit;
+    
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+#id{
+    font-family: inherit;
+    
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+
+#add{
+    font-family: inherit;
+    
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+#user{
+    font-family: inherit;
+    
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+#bal{
+    font-family: inherit;
+    
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+#pass{
+    font-family: inherit;
+    
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+#pass{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+.pass {
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+
+
+#date {
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    left: 20px;
+}
+
+#use{
+
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    left: 20px;
+
+}
+
+
+#conf{
+    position: relative ;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 60px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  margin-left: 80px;
+}
+
+
+
+  
+#data {
+    text-decoration: none;
+    border: 3px solid rgb(5, 5, 5);
+    color: transparent;
+    padding: 40px 80px;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative;
+  }
+  
+  #data {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+  }
+  #data {
+    content: "Hover Me";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background: rgb(48, 197, 235);
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 10%;
+    width: 15%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+    position: absolute ;
+ top :57ch ;
+    left: 55ch ;
+  }
+  
+
+  
+/*     
+ position: absolute ;
+ bottom: 20px;
+    left: 80ch ;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 60px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  font-style: arial;
+  font-style: oblique;
+   */
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+
+
+}
+
+#dep{
+    position: relative ;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 60px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+}
+
+
+#with{
+    position: relative ;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 210px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    left: 35%;
+    margin-top: 20%;
+    margin-left: 200px;
+
+}
+
+#dep{
+    position: relative ;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 210px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    left: 30%;
+    margin-top: 20%;
+
+}
+
+/* #d12{
+    
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+    margin-top: 200px;
+    font-weight: 520 ;	
+    font-family:  Comic Sans, cursive ;
+    margin-right: auto;
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+    margin-top: 200px;
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+} */
+
+
+#d12{
+    
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+    margin-top: 200px;
+    font-weight: 520 ;	
+    font-family:  Comic Sans, cursive ;
+    margin-right: auto;
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+    margin-top: 200px;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    color: rgb(0, 0, 0);
+    padding: 7px 0;
+    background: transparent;
+   
+}
+
+/* #ont{
+    position: relative ;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 210px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    left: 30%;
+    margin-top: 20%;
+} */
+
+
+#with3{
+    position: relative ;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 210px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+
+}
+
+
+/* #pro{
+    position: relative ;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 210px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6); 
+} */
+
+#acc{
+    display: flex;
+    margin-left: -50px;
+}
+form{
+    margin-right: auto;
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+}
+ 
+ 
+#ok{
+    margin-right: auto;
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+    margin-top: 200px;
+
+}
+
+#dip{
+margin-top: 150px;
+}
+
+#within{
+    margin-right: auto;
+    width: 25%;
+    display: grid;
+    margin-left: auto;
+    margin-top: 200px;
+}
+
+#amo2{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    
+}
+#amo3{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+#pass4{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+#pass3{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid rgb(214, 55, 55);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+#with4{
+    position: relative ;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 60px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+}
+
+
+#input1 {
+    font-weight: 520 ;	
+     font-family:  Comic Sans, cursive ; 
+position: absolute;
+left: 130px ;
+top: 90px;
+}
+
+#input2{
+    font-weight: 520 ;	
+     font-family:  Comic Sans, cursive ;
+position: absolute;
+left: 800px;
+top:180px;
+}
+

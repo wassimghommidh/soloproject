@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -12,9 +14,97 @@
 
 
 
+                   <div id = "all">
+<h1 id = "c1" > Create your bank account </h1>
+<form id = "input1">
+   First name: <input id = "name" type="text"> <br><br>
+   Last name : <input id = "last" type="text"><br><br>
+   ID : <input id = "id" type="text"> <br><br>
+   Address : <input id = "add" type="text"> <br><br> 
+   User name <input id = "user" type="text"> <br><br>
+
+</form>
+<form form id = "input2">
+   Balance <input id = "bal" type="text"> <br><br>
+   Create your password : <input class = "pass" type="password"> <br><br>
+   Confirm your password : <input class = "pass" type="password"> <br><br>
+   Date of birth <input id = "date" type="date"> <br><br>
+</form>
+
+<button id = "data">Confirm your information</button>
+</div>
 
 
 
-   <script src="main.js"></script> 
+
+
+
+<div id ="ok" style="display: none;">
+    <h1>login</h1>
+    username : <input id = "use" type="text"> <br><br>
+    password : <input class = "pass" type="password"> <br><br>
+    <button id = "conf">login</button>
+</div>
+
+
+
+
+
+
+<div id = "acc" style="display: none;" >
+    <button id = "dep" >Deposit</button>
+    <button id = "with" >Withdraw</button>
+</div>
+
+
+<div id ="ok" style="display: none;">
+    <h1>login</h1>
+    username : <input id = "use" type="text"> <br><br>
+    password : <input class = "pass" type="password"> <br><br>
+    <button id = "conf">login</button>
+</div>
+
+
+
+
+
+<div id = "within"style="display: none;" >
+    <br><br>
+Amount  <input id = "amo2" type="text"> <br><br>
+Debit card num :<input id = "pass3" type = "password"> <br><br>
+<button id = "with3" >confirm</button>
+
+<h1 id = "msgD" style="display: none;">Your money has been deposited successfully </h1>
+
+<h1 id = "msgC" style="display: none;" >Your money has been withdrawn successfully</h1>
+</div>
+
+    <div id = "d12"style="display: none;" >
+        <br>
+    Amount  <input id = "amo3" type="text"> <br><br>
+    Debit card num :<input id = "pass4" type = "password"> <br><br>
+    <button id = "with4" >confirm</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
 </body>
 </html>
